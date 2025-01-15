@@ -67,7 +67,7 @@ This repository contains the data and scripts used to support the paper titled "
 
 ## Usage
 
-1.  **Data Preparation:** Ensure you have access to the OQMD database if you want to repoduce the element encoded dataset obtained with `get_coverage_from_OQMD.py`.
+1.  **Data Preparation:** Ensure you have access to the OQMD database if you want to reproduce the element encoded dataset obtained with `get_coverage_from_OQMD.py`.
 2.  **Coverage Calculation:** Run `get_coverage_from_OQMD.py` to calculate the coverage scores of the structures in `CSIp3m1_30kselected_relaxed_featurized_OmegaROSA_predictions.csv`
 3.  **Filtering:** Run `filter_ML_screen_predictions.py` to filter the structures into exploration and production datasets.
 
@@ -76,4 +76,4 @@ This repository contains the data and scripts used to support the paper titled "
     decomposition energies calculated through CHGNet and after CHGNet relaxation. Structures with Echgnet_stab above 45 meV are included in this set but they are not part of the screening,
     they just helped the model generalization, the subsets that matter are in `filtered_exploration_df.csv` and `filtered_production_df.csv`.
 *   The `OQMD_one_hot_encoded_data.tar.xz` file is needed to generate new coverage scores based on OQMD through `get_coverage_from_OQMD.py`.
-*   The parameters in the `filter_ML_screen_predictions.py` script can be adjusted to modify the filtering criteria based on the required exploration/production needs.
+*   The parameters in the `filter_ML_screen_predictions.py` script can be adjusted to modify the filtering criteria based on the required needs.
