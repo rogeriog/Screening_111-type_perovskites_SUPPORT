@@ -13,9 +13,9 @@ This repository contains the data and scripts used to support the paper titled "
 
 *   **`perovsk111_30kSamples_fullfeaturized_coverage.csv`**: This file contains the results of the machine learning predictions and the coverage scores. It includes the following columns:
     *   `structure`: The chemical formula of the perovskite structure.
-    *   `gap_class`: The predicted value for the band gap class 'semiconductor', based on MODNet model trained on the OMEGA+ROSA featturizer.
-    *   `band_gap`: The predicted band gap energy (in eV), based on MODNet model trained on the OMEGA+ROSA featturizer..
-    *   `stability`: The predicted stability score, based on MODNet model trained on the OMEGA+ROSA featturizer.
+    *   `gap_class`: The predicted value for the band gap class 'semiconductor', based on MODNet model trained on the OMEGA+ROSA featurizer.
+    *   `band_gap`: The predicted band gap energy (in eV), based on MODNet model trained on the OMEGA+ROSA featurizer..
+    *   `stability`: The predicted stability score, based on MODNet model trained on the OMEGA+ROSA featurizer.
     *   `coverage_score`: A score indicating how well the elemental combinations in this structure are represented in the OQMD database based on the `get_coverage_from_OQMD.py` script.
     *   `mlip_stability`: The predicted stability score, based on machine learned interatomic potentials, in our case CHGNet.
     
